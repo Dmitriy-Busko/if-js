@@ -35,7 +35,8 @@ console.log(result);
 
 const arr2 = [2, 5, 8, 15, 0, 6, 20, 3];
 for (let i = 0; i < arr2.length; i += 1) {
-  if (arr2[i] > 5 && arr2[i] < 10) console.log(arr2[i]);
+  if (arr2[i] > 5 && arr2[i] < 10);
+  console.log(arr2[i]);
 }
 
 const arr3 = [2, 5, 8, 15, 0, 6, 20, 3];
